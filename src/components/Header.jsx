@@ -24,8 +24,8 @@ function Header() {
                     <ul className="nav__list">
                         <li><Link to="/" className="nav__link">Home</Link></li>
                         <li><Link to="/about" className="nav__link">About Us</Link></li> 
-                        <li><Link to="/services" className="nav__link">Services</Link></li>
-                        <li><Link to="/contact" className="nav__link">Contact</Link></li>
+                        <li><a className="nav__link" href='#service'>Services</a></li>
+                        <li><a className="nav__link"  href="#contacts">Contact</a></li>
                     </ul>
                 </div>
             </nav>

@@ -6,9 +6,12 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import AboutPage from './pages/AboutPage';
-import 'remixicon/fonts/remixicon.css'
+import 'remixicon/fonts/remixicon.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import ServicesPage from './pages/ServicesPage';
 import ContactPage from './pages/ContactPage';
+
+
 
 const router = createBrowserRouter([
   {
