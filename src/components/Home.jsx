@@ -7,9 +7,8 @@ function Home() {
     <section className="home" style={{ backgroundImage: `url(${backgroundImage})` }}>
       <div className="home-content">
         <h1>Welcome to Our Website</h1>
-        <p>Discover our amazing services and take your business to the next level.</p>
-        <Link to="/services" className="btn btn-primary">Learn More</Link>
-      </div>
+        <h2>Discover our amazing services and take your business to the next level.</h2>
+        <a href="#service" className="btn btn-primary">Learn More</a>      </div>
     </section>
   );
 }

@@ -23,9 +23,11 @@ function Header() {
                 <div className={(isOpen)? 'nav__menu show-menu' : 'nav__menu'} id="nav-menu">
                     <ul className="nav__list">
                         <li><Link to="/" className="nav__link">Home</Link></li>
-                        <li><Link to="/about" className="nav__link">About Us</Link></li> 
+                        
                         <li><a className="nav__link" href='#service'>Services</a></li>
+                        <li><a className="nav__link" href='#portfolio'>Portfolio</a></li>
                         <li><a className="nav__link"  href="#contacts">Contact</a></li>
+                        
                     </ul>
                 </div>
             </nav>

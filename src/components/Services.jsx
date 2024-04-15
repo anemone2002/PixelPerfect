@@ -9,6 +9,7 @@ function Services() {
     return ( 
         <section className="services" id='service'>
             <Container>
+            <h2 className="services-title">Our Services</h2>
                 <Row>
                     <Col md={4}>
                         <Card>

@@ -135,6 +135,7 @@ a{
     opacity: 1;
     top: 3.5rem;
     pointer-events: initial;
+    z-index: 5;
   }
   
   .show-icon .nav__burger {
@@ -185,7 +186,7 @@ a{
     }
   }
   #home {
-    background-color: #f7f7f7; /* Light gray background color */
+    background-color: #f7f7f7; 
     padding: 4rem 0;
     text-align: center;
 }
@@ -195,7 +196,7 @@ a{
   justify-content: space-around;
   align-items: center;
   padding: 50px 0;
-  background-color: #cfd2b0;
+  background-color: #e0ace0;
 }
 
 
@@ -342,7 +343,7 @@ a{
 .contact button[type="submit"]:hover {
   background-color: #0056b3;
 }
-/* Home.css */
+
 
 .home {
   position: relative;
@@ -364,9 +365,10 @@ a{
   margin-bottom: 1rem;
 }
 
-.home-content p {
+.home-content h2 {
   font-size: 1.5rem;
   margin-bottom: 2rem;
+  
 }
 
 .btn-primary {
@@ -379,4 +381,93 @@ a{
 
 .btn-primary:hover {
   background-color: #0056b3;
+}
+
+
+.portfolio {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.portfolio-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-card {
+  flex-basis: calc(50% - 20px);
+  margin-bottom: 40px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+}
+
+.project-details {
+  padding: 20px;
+}
+
+.project-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  color: #666;
+}
+
+.view-project-btn {
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.cta-text {
+  margin-bottom: 20px;
+}
+.services-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.btn-primary .contact {
+  background-color: #363739;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-primary .contact:hover {
+  background-color: #363739;
+}
+.marker {
+  position: relative;
+}
+
+.marker::before {
+  content: '';
+  position: absolute;
+  top: 50%; /* Позиционирование маркера по вертикали в центре элемента */
+  left: -10px; /* Расположение маркера слева от текста */
+  width: 5px; /* Ширина маркера */
+  height: 5px; /* Высота маркера */
+  border-radius: 50%; /* Делает маркер круглым */
+  background-color: #000; /* Цвет маркера */
+  transform: translateY(-50%); /* Смещение маркера по вертикали на половину своей высоты наверх */
 }
