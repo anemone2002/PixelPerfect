@@ -353,7 +353,7 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: black;
 }
 
 .home-content {
@@ -455,19 +455,4 @@ a{
 
 .btn-primary .contact:hover {
   background-color: #363739;
-}
-.marker {
-  position: relative;
-}
-
-.marker::before {
-  content: '';
-  position: absolute;
-  top: 50%; /* Позиционирование маркера по вертикали в центре элемента */
-  left: -10px; /* Расположение маркера слева от текста */
-  width: 5px; /* Ширина маркера */
-  height: 5px; /* Высота маркера */
-  border-radius: 50%; /* Делает маркер круглым */
-  background-color: #000; /* Цвет маркера */
-  transform: translateY(-50%); /* Смещение маркера по вертикали на половину своей высоты наверх */
 }
